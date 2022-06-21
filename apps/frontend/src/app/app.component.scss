@@ -1,0 +1,30 @@
+
+
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.navbar{
+  border-bottom: 2px solid var(--dark-purple);
+  border-top: 2px solid var(--dark-purple);
+  max-height: 40px;
+  background-color: var(--dark-purple);
+}
+
+.navbar-icon {
+  height: auto;
+
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-item {
+  color: var(--white);
+}
+
+

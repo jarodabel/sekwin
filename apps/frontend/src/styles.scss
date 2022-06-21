@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bulma/css/bulma.css';
+@import 'styles/_variables.scss';
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+section.hero {
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+.has-red-background {
+  background-color: var(--red)
+}
+.has-red-text {
+  color: var(--red)
+}
+.has-orange-background {
+  background-color: var(--orange)
+}
+.has-orange-text {
+  color: var(--orange)
+}
+.has-yellow-background {
+  background-color: var(--yellow)
+}
+.has-yellow-text {
+  color: var(--yellow)
+}
+.has-green-background {
+  background-color: var(--green)
+}
+.has-green-text {
+  color: var(--green)
+}
+.has-teal-background {
+  background-color: var(--teal)
+}
+.has-teal-text {
+  color: var(--teal)
+}
+.has-blue-background {
+  background-color: var(--blue)
+}
+.has-blue-text {
+  color: var(--blue)
+}
+.has-dark-blue-background {
+  background-color: var(--dark-blue)
+}
+.has-dark-blue-text {
+  color: var(--dark-blue)
+}
+.has-purple-background {
+  background-color: var(--purple)
+}
+.has-purple-text {
+  color: var(--purple)
+}
+.has-dark-purple-background {
+  background-color: var(--dark-purple)
+}
+.has-dark-purple-text {
+  color: var(--dark-purple)
+}
+.has-pink-background {
+  background-color: var(--pink)
+}
+.has-pink-text {
+  color: var(--pink)
+}
+.has-white-background {
+  background-color: var(--white)
+}
+.has-white-text {
+  color: var(--white)
+}
+

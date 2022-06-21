@@ -1,1 +1,41 @@
-<sekwin-nx-welcome></sekwin-nx-welcome>
+<nav class="navbar has-white-background" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item navbar-icon">
+      <img class="navbar-icon" src="../assets/rainbow-flag-big.png">
+      </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" routerLink="/home">
+        Home
+      </a>
+      <a class="navbar-item" routerLink="/mission">
+        Mission
+      </a>
+      <a class="navbar-item" routerLink="/contact">
+        Contact
+      </a>
+      <a class="navbar-item" routerLink="/donate">
+        Donate
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="container is-max-widescreen">
+  <section class="hero">
+    <div class="hero-body">
+      <p class="title has-dark-purple-text">
+        SEKWIN
+      </p>
+      <p class="subtitle has-dark-purple-text">
+        Southeast Kansas Women's Intersectional Network
+      </p>
+    </div>
+  </section>
+  <router-outlet></router-outlet>
+</div>
