@@ -4,14 +4,20 @@
   display: block;
   height: 100%;
   width: 100%;
-  overflow: hidden;
   background-color: var(--white);
 }
 
-.navbar{
+.navbar {
   border-bottom: 2px solid var(--dark-purple);
   border-top: 2px solid var(--dark-purple);
-  max-height: 40px;
+  background-color: var(--dark-purple);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-menu {
   background-color: var(--dark-purple);
 }
 
@@ -27,4 +33,6 @@
   color: var(--white);
 }
 
-
+.app-container {
+  padding-top: 60px;
+}

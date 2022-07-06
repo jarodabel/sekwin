@@ -7,4 +7,13 @@ import { AfterViewInit, Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+  showMenu = false;
+
+  toggleMenu(override?:boolean) {
+    if(override !== undefined){
+      this.showMenu = override;
+      return;
+    }
+    this.showMenu = !this.showMenu;
+  }
 }

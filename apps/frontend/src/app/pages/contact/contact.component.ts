@@ -8,9 +8,15 @@ import { AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, O
 })
 export class ContactComponent implements AfterViewInit {
   showGroup = false;
+  pageWidth = 0;
 
   constructor(private cdr: ChangeDetectorRef) { }
+
   ngAfterViewInit() {
-    (window as any).FB.XFBML.parse()
+    this.pageWidth = window.innerWidth;
+    console.log(this.pageWidth);
+    this.cdr.detectChanges();
+
+    (window as any).FB.XFBML.parse();
   }
 }
